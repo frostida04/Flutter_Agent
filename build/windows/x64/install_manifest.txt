@@ -10,6 +10,4 @@ G:/Agent Hustle/Mine/flutter_agent/build/windows/x64/runner/Debug/data/flutter_a
 G:/Agent Hustle/Mine/flutter_agent/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES
 G:/Agent Hustle/Mine/flutter_agent/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
 G:/Agent Hustle/Mine/flutter_agent/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
-G:/Agent Hustle/Mine/flutter_agent/build/windows/x64/runner/Debug/data/flutter_assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.css
-G:/Agent Hustle/Mine/flutter_agent/build/windows/x64/runner/Debug/data/flutter_assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html
 G:/Agent Hustle/Mine/flutter_agent/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
