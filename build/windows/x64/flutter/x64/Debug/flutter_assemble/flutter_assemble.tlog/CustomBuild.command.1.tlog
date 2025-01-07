@@ -1,0 +1,28 @@
+^G:\AGENT HUSTLE\MINE\FLUTTER_AGENT\BUILD\WINDOWS\X64\CMAKEFILES\95916D4B0068D93A10856EE6D8DB1840\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=G:\AgentHustle\flutter "PROJECT_DIR=G:\Agent Hustle\Mine\flutter_agent" FLUTTER_ROOT=G:\AgentHustle\flutter "FLUTTER_EPHEMERAL_DIR=G:\Agent Hustle\Mine\flutter_agent\windows\flutter\ephemeral" "PROJECT_DIR=G:\Agent Hustle\Mine\flutter_agent" "FLUTTER_TARGET=G:\Agent Hustle\Mine\flutter_agent\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=G:\Agent Hustle\Mine\flutter_agent\.dart_tool\package_config.json" G:/AgentHustle/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^G:\AGENT HUSTLE\MINE\FLUTTER_AGENT\BUILD\WINDOWS\X64\CMAKEFILES\6045429F3FE80BAC243149B9D166D5CD\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^G:\AGENT HUSTLE\MINE\FLUTTER_AGENT\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SG:/Agent Hustle/Mine/flutter_agent/windows" "-BG:/Agent Hustle/Mine/flutter_agent/build/windows/x64" --check-stamp-file "G:/Agent Hustle/Mine/flutter_agent/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
